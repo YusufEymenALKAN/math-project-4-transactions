@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Matematik Quiz</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="start-game">
+            <h1>4 İşlem Matematik.</h1>
+            <p>Başlamak için tuşa bas</p>
+            <a id="start-btn" onclick="restart()">HADİ BAŞLAYALIM</a>
+        </div>
+        <div id="in-game">
+            <div class="top-section">
+                <h1>4 İŞLEM MATEMATİK</h1>
+                <div class="game-data">
+                    <p>SORU :
+                        <span id="Qno">0</span>/10
+                    </p>
+                    <p>Puan: <span id="score">0</span></p>
+                </div>
+                <div id="timer">
+                    <div id="progress"></div>
+                </div>
+            </div>
+            <div class="question-card">
+                <h1 id="question">Bu soru</h1>
+            </div>
+            <h3>Doğru olanı seç: </h3>
+            <div class="answer-card">
+                <button>A Şıkkı</button>
+                <button>B Şıkkı</button>
+                <button>C Şıkkı</button>
+                <button>D Şıkkı</button>
+            </div>
+        </div>
+        <div id="end-game">
+            <h1>&#128515</h1>
+            <h1>Toplam puanın : <span id="final-score">0</span> / 1000</h1>
+            <p id="message"></p>
+            <a id="restart-btn" onclick="restart()">TEKRAR ÇÖZ</a>
+        </div>
+    </div>
+</body>
+
+</html>
