@@ -77,7 +77,7 @@ button:hover {
 #restart-btn {
     cursor: pointer;
     border-radius: 1rem;
-    margin: 2rem auto 1rem;
+    margin: 2rem auto 0rem;
     padding: 1rem 2rem;
     font-size: 1rem;
     font-weight: 600;
@@ -85,6 +85,16 @@ button:hover {
     background-color: rgb(64, 107, 226);
 }
 
+#restart-bt {
+    cursor: pointer;
+    border-radius: 1rem;
+    margin: 2rem auto 0rem;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 107, 226);
+}
 #in-game,
 #end-game {
     display: none;
