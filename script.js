@@ -191,3 +191,6 @@ buttons[3].addEventListener('click', () => {
     clearInterval(t);
     outro(3);
 });
+function ReloadLocation() {
+    location.reload();
+}
